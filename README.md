@@ -37,4 +37,14 @@ Coleta de dados (opcional) via RAWG API, limpeza de descrições e organização
 Notebook que demonstra e valida o funcionamento do modelo Zero-Shot.
 
 ### 🔹 3. Aplicação final (app_streamlit/app.py)
+
+---
+
+# Exemplos
+
+<img width="818" height="518" alt="image" src="https://github.com/user-attachments/assets/ca97166e-8ee2-4a2f-a429-cf5804d50e66" />
+
+<img width="818" height="518" alt="image" src="https://github.com/user-attachments/assets/61a43867-c0ea-43ff-a3d3-47315673b405" />
+
 Interface onde o usuário digita a descrição do jogo e recebe o gênero previsto.
+
