@@ -1,9 +1,13 @@
 import streamlit as st
-import joblib
+from transformers import pipeline  # LLM
 
-# Carrega modelo e vetorizador
-clf = joblib.load("model/classifier.pkl")
-vectorizer = joblib.load("model/vectorizer.pkl")
+# Carrega o modelo LLM
+classifier_llm = pipeline(
+    "zero-shot-classification",
+    model="valhalla/distilbart-mnli-12-1"  # modelo mais leve e rápido
+)
+
+candidate_labels = ["Action", "Adventure", "RPG", "Shooter", "Strategy", "Puzzle", "Horror"]
 
 st.set_page_config(page_title="Game Classifier", page_icon="🎮")
 
@@ -16,6 +20,6 @@ if st.button("Classificar"):
     if not texto.strip():
         st.warning("Por favor, digite uma descrição primeiro.")
     else:
-        vec = vectorizer.transform([texto])
-        pred = clf.predict(vec)[0]
-        st.success(f"Gênero previsto: **{pred}**")
+        result = classifier_llm(texto, candidate_labels)
+        best_label = result["labels"][0]
+        st.success(f"Gênero previsto (LLM): **{best_label}**")
