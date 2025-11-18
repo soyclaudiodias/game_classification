@@ -14,6 +14,7 @@ st.set_page_config(page_title="Game Classifier", page_icon="🎮")
 st.title("🎮 Game Classifier")
 st.write("Digite a descrição de um jogo e o modelo tentará prever o gênero.")
 
+#caixa de texto
 texto = st.text_area("📘 Descrição do jogo:", height=200)
 
 if st.button("Classificar"):
