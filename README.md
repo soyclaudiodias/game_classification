@@ -117,3 +117,8 @@ O projeto demonstra como **LLMs podem ser aplicados diretamente** para classific
 
 ---
 
+# 🎥 Demonstração em Vídeo
+
+Confira o vídeo de apresentação do projeto:  
+https://youtu.be/NjUuYn77qQI
+
