@@ -80,9 +80,13 @@ Interface Streamlit contendo:
 
 # 🎨 Interface
 
-<img width="818" height="518" src="https://github.com/user-attachments/assets/ca97166e-8ee2-4a2f-a429-cf5804d50e66" />
+<img width="864" height="930" alt="image" src="https://github.com/user-attachments/assets/bb9f53e4-46b3-405c-9d07-d48c3a4e0b99" />
 
-<img width="818" height="518" src="https://github.com/user-attachments/assets/61a43867-c0ea-43ff-a3d3-47315673b405" />
+<img width="864" height="930" alt="image" src="https://github.com/user-attachments/assets/b7f19f56-d4f4-4556-81e2-22afb899eb54" />
+
+<img width="864" height="930" alt="image" src="https://github.com/user-attachments/assets/c14ec686-4d1a-4bd2-a4c3-7e9e8a25171a" />
+
+<img width="864" height="930" alt="image" src="https://github.com/user-attachments/assets/f08680d6-bfba-443a-a887-698424dcca12" />
 
 ---
 
@@ -121,4 +125,5 @@ O projeto demonstra como **LLMs podem ser aplicados diretamente** para classific
 
 Confira o vídeo de apresentação do projeto:  
 https://youtu.be/NjUuYn77qQI
+
 
