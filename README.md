@@ -35,18 +35,26 @@ O usuário insere uma descrição → o modelo analisa a semântica → retorna 
 # 🏗️ Arquitetura do Projeto
 
 ```
-📦 projeto-game-classification/
+📦 game-classification/
 │
 ├── app_streamlit/
-│   ├── app.py               # Aplicação final
-│   └── requirements.txt     # Dependências
+│   └── app.py
+│
+├── data/
+│   └── games_extended.csv
+│
+├── model/
+│   ├── classifier.pkl
+│   └── vectorizer.pkl
 │
 ├── notebooks/
 │   ├── data_collection.ipynb
 │   ├── llm_classification.ipynb
 │   └── model_training.ipynb
 │
-└── README.md
+├── Documentação.pdf
+├── README.md
+└── requirements.txt
 ```
 
 ---
@@ -121,9 +129,12 @@ O projeto demonstra como **LLMs podem ser aplicados diretamente** para classific
 
 ---
 
-# 🎥 Demonstração em Vídeo
+# 📚 Materiais do Projeto
 
-Confira o vídeo de apresentação do projeto:  
-https://youtu.be/NjUuYn77qQI
+Confira o vídeo do projeto:  
+👉 [**Clique aqui**](https://youtu.be/NjUuYn77qQI)
+
+Confira a documentação do projeto:  
+👉 [**Clique aqui**](https://github.com/soyclaudiodias/game_classification/blob/main/Documenta%C3%A7%C3%A3o.pdf)
 
 
